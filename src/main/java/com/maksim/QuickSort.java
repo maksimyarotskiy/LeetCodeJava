@@ -5,7 +5,7 @@ public class QuickSort {
     public void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(arr, low, high);
-            
+
             quickSort(arr, low, pivotIndex - 1);
             quickSort(arr, pivotIndex + 1, high);
         }
@@ -22,7 +22,7 @@ public class QuickSort {
                 swap(arr, i, j);
             }
         }
-        swap(arr, i + 1, high);
+        swap(arr, i + 1, arr[high]);
         return i + 1;
     }
 
