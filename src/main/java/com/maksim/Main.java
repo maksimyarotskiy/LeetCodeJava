@@ -6,8 +6,8 @@ import com.maksim.stage2.*;
 
 public class Main {
     public static void main(String[] args) {
-        int versions = 7;
-        int res = Prob278.firstBadVersion(versions);
+        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        int res = Prob153.findMin(nums);
 
         System.out.println(res);
 
