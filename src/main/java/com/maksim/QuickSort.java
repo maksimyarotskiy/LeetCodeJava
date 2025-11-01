@@ -22,7 +22,7 @@ public class QuickSort {
                 swap(arr, i, j);
             }
         }
-        swap(arr, i + 1, arr[high]);
+        swap(arr, i + 1, high);
         return i + 1;
     }
 
