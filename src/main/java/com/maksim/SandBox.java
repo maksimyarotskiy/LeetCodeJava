@@ -1,6 +1,5 @@
 package com.maksim;
 
-import java.util.Arrays;
 
 public class SandBox {
     public boolean executeProb(int[] nums, int target) {
